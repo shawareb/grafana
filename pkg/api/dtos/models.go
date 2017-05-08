@@ -53,6 +53,8 @@ type DashboardMeta struct {
 	UpdatedBy  string    `json:"updatedBy"`
 	CreatedBy  string    `json:"createdBy"`
 	Version    int       `json:"version"`
+	HasAcl     bool      `json:"hasAcl"`
+	IsFolder   bool      `json:"isFolder"`
 }
 
 type DashboardFullWithMeta struct {
